@@ -1,0 +1,45 @@
+.postContent {
+  display: block;
+  margin-bottom: 2rem;
+
+
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--Heading);
+  }
+
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--Body);
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-right: 1.5rem;
+
+      span {
+        margin-left: 0.5rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: var(--Info);
+      }
+    }
+  }
+}
+
+.postLink {
+  font-size: 1.125rem;
+  font-weight: 600;
+  background: var(--Background);
+  color: var(--Highlight);
+  border: none;
+}
