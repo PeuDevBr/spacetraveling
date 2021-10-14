@@ -14,6 +14,7 @@ import { getPrismicClient } from '../../services/prismic';
 
 import commonStyles from '../../styles/common.module.scss';
 import styles from './post.module.scss';
+import Comments from '../../components/comments';
 
 interface Post {
   uid: string;
@@ -118,6 +119,8 @@ export default function Post({
             </div>
           ))}
         </div>
+
+        <Comments />
 
         <section className={`${styles.navigation} ${commonStyles.container}`}>
           {navigation?.prevPost.length > 0 && (
